@@ -1,7 +1,6 @@
 html {
   background: url(../images/spice-girls.jpg) no-repeat top left;
 }
-
 #monkey {
   position: absolute;
   top: 550px;
@@ -10,3 +9,9 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width:1000px){
+  #monkey {
+    right: 0;
+    top: 0;
+  }
+}
